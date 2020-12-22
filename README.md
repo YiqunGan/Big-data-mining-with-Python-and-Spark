@@ -90,3 +90,11 @@ Spectral graph partition on non-graph data
 Task 6 
 
 Identify important nodes in a graph via page rank
+
+## Final report
+
+Music platforms usually didn’t provide a rating system for users like movies or books. Predicting whether a song is favored by a user is mainly decided by their repetitive listening behavior. It is a classification problem as we’d like to predict if the user likes a song or not. KKBOX, Asia’s leading music streaming service, currently uses a collaborative filtering based algorithm in their recommendation system. We are interested in exploring whether hybrid collaborative filtering models or other machine learning of classification models could lead to better results in music recommendation.
+
+
+For this project, we are going to build  a music recommendation with KKBox dataset with the hybrid recommendation method. For recommendation system parts, we separately use three methods, user-based, item-based, and (SVD) model based to get independent recommendation systems first, then we adopt the optimized hybrid weighted method to combine three of them to recommend. In addition, we apply machine learning to regard the recommendation as a classifier and utilize the adaboost and catboost to obtain a strong classifier. In this process, we apply many machine learning methods, such as decision tree, random forest, and XGBoost. Finally, we use different evaluation methods to evaluate the performance of our models and both methods could yield good performance which  are  significant promotions for the original single method.
+
