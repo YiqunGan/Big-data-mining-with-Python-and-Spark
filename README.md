@@ -91,7 +91,7 @@ Task 6
 
 Identify important nodes in a graph via page rank
 
-## Final report
+## Final report: Music Recommendation System
 
 Music platforms usually didn’t provide a rating system for users like movies or books. Predicting whether a song is favored by a user is mainly decided by their repetitive listening behavior. It is a classification problem as we’d like to predict if the user likes a song or not. KKBOX, Asia’s leading music streaming service, currently uses a collaborative filtering based algorithm in their recommendation system. We are interested in exploring whether hybrid collaborative filtering models or other machine learning of classification models could lead to better results in music recommendation.
 
